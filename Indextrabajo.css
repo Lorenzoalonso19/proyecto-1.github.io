@@ -1,0 +1,74 @@
+
+
+h1{
+    font-size: 2.5em;
+}
+
+body{
+    background-color: antiquewhite;
+    font-size: 16px;
+
+}
+
+#row2 {
+    justify-content: flex-end;
+}
+
+
+header,nav, .container {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%;
+}
+
+li{
+    font-size: 1.5em;
+}
+
+.element-2, .element-3 {
+    width: 50%;
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 8px;
+    }
+    #menu-chico {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(255, 206, 213);
+    }
+    #menu-chico ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.row {
+    display: flex;
+}
+
+
+#row2, #row4 {
+    justify-content: flex-end;
+}
+
+span{
+    font-weight: bold;
+    color: rebeccapurple;
+
+}
+
+p{
+    margin-left: 5px;
+}
+

@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+}
+
+.column{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+header, img{
+    width: 100%;
+}
+
+p{
+    margin-top: 10px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(77, 77, 230);
+}
